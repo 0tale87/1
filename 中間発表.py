@@ -13,7 +13,5 @@ while True:
     pirValue = GPIO.input(PIN)
     if( pirValue == True):
         print "PIR = ON"
-    else:
-        print "PIR = OFF"
 
     time.sleep(0.1)
