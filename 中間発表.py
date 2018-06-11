@@ -10,10 +10,10 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(PIN,GPIO.IN)
 
 while True:
-pirValue = GPIO.input(PIN)
-if( pirValue == True):
-print "PIR = ON"
-else:
-print "PIR = OFF"
+    pirValue = GPIO.input(PIN)
+    if( pirValue == True):
+        print "PIR = ON"
+    else:
+        print "PIR = OFF"
 
-time.sleep(0.1)
+    time.sleep(0.1)
